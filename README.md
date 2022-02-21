@@ -69,3 +69,24 @@ random grab
 # lose - run out of life If lifes = 0 print you lose
 
 
+Finally the computer guessing via the top frequency of letters based on word length.
+
+Grab first word get length 
+Save the count of letters into a file of word size
+
+Example input
+word_list = [“roof”, “window”, “carpet”, “table”, “wall”, “garage”]
+
+
+
+Output takes input and gets letter add if doesn’t exit
+
+If letter exist increase amount by 1
+
+four_letters =[“r = 1”, “o= 2”, “f = 1”, “w = 1”, “a = 1”, “l= 2”]
+five_letters =[“t = 1”, “a = 1”, “b = 1”, “l = 1”, “e = 1”]
+six_letters =[”i = 1”, ”n = 1”, ”d= 1”, ”o = 1”, ”w = 2”, ”c = 1”, ”p = 1”, ”t = 1”, ”r = 2”, ”a = 3”, ”g = 2”, ”e =2”]
+
+Then sort highest value and put keyword as input.
+
+
