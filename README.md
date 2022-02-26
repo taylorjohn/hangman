@@ -1,17 +1,63 @@
-# hangman
-hangman vs computer
+# The largest heading
+## The second largest heading
+###### The smallest heading
 
-Hangman
+**This is bold text**
+
+*This text is italicized*
+
+~~This was mistaken text~~
+
+**This text is _extremely_ important**
+
+***All this text is important***
+
+[GitHub Pages](https://pages.github.com/)
+
+
+
+
+
+# HANGMAN GAME FROM 100 DAYS OF CODE
+
+My goal is to complete it, then add additional features like a computer player, menu, scores and etc.
+
+- [x] Hangman 
+- [x] Hangman vs Random Computer Choice
+- [ ] Hangman vs Frequency Computer Choice
+- [ ] Hangman vs Word Length Frequency Computer Choice
+- [ ] Hangman vs All Computer Choices
+
+## Hangman
+
+**Hangman -** The regular game as in the challenge
+
+Here is my pthon file [Hangman](https://github.com/taylorjohn/hangman/blob/main/hangman.py)
 
 1.   A real player chooses letters and play
 2.  computer picks random letters and plays (horrible odds)
 
 # Additional improvements beyong regular hangman 
 
-3.  computer picks letter based on generic frequency (ok odds of winning) but based on all words not a specific word length
-4. computer pick letters base on frequency of the length of the word I assume this will improve its odds
+1. **Menu**
+   - Select Game type
+     - Play selected game
 
-# compares scores you playing not only against the hangman but the computer a few ways.
+2. **Computer Player**
+
+  - **Computer Random Letter Choices**
+    - picks letter at random should have horrible odds of getting words
+      -  Compare Players score to the random Computer choices
+  
+  - **Computer picks letter based on generic frequency**
+    - (ok odds of winning) but based on all words not a specific word length
+      -  Compare Players score to the random Computer choices
+
+  - **Computer pick letters base on frequency of the length of the word**
+    -  I assume this will improve its odds
+        -  Compare Players score to the random Computer choices
+
+  - **compares scores you playing not only against the hangman but the computer a few ways.**
 
 1. scores
   a.  your score - win - 2 life left - 2nd place
@@ -24,6 +70,7 @@ Hangman
 
 
 3.  clear screen each time so no long scroll
+- [x]  Working - clear screen each time so no long vertical scroll whikle playing
 
 4. create list of chosen letters
   a.  alphabet list for Random  .py file to import
