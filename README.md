@@ -20,7 +20,7 @@
 
 # HANGMAN GAME FROM 100 DAYS OF CODE
 
-My goal is to complete it, then add additional features like a computer player, menu, scores and etc.
+My goal is to complete the regular hHangman game, then add or extend additional features like a computer player, menu, scores and etc.
 
 - [x] Hangman 
 - [x] Hangman vs Random Computer Choice
@@ -33,6 +33,20 @@ My goal is to complete it, then add additional features like a computer player, 
 **Hangman -** The regular game as in the challenge
 
 Here is my pthon file [Hangman](https://github.com/taylorjohn/hangman/blob/main/hangman.py)
+
+It chooses a random word from a external word list.
+It displays the blank for each letter in word length.
+
+The player chooses a letter
+
+   if letter matches any blanks it displays
+      continues till no blanks left
+         wins
+      
+   if letter not match to ay blanks
+      removes a life
+      conitues till no lifes left
+         loses
 
 1.   A real player chooses letters and play
 2.  computer picks random letters and plays (horrible odds)
@@ -115,6 +129,7 @@ random grab
 
 # lose - run out of life If lifes = 0 print you lose
 
+** inproving the computer player**
 
 Finally the computer guessing via the top frequency of letters based on word length.
 
